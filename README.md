@@ -22,7 +22,7 @@ See this [JSFiddle link](http://jsfiddle.net/D4V1D/zv7fk2qj/) to see the plugin.
 First of all, you would need to make a `<ul>` list populated with `<li>` items containing a `data-title` attribute like so:
 ```html
 <ul id="accordionify">
-	<li class="" data-title="Title 1">
+	<li class="active" data-title="Title 1">
 		<ul>
 			<li>Hello!</li>
 			<li>How you doing?</li>
