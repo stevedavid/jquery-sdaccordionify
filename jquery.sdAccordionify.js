@@ -47,7 +47,6 @@
 
         return;
     };
-    $.sdAccordionify.defaults = {};
 
     $.sdAccordionify.buildAccordion = function($lis) {
     
@@ -68,16 +67,9 @@
             width: options.width,
             border: '1px solid ' + options.colors.containerBorder
         })
-        , widths = []
         ;
 
-        $(el).css('padding', 0).find('> li').each(function(i) {
-            widths[i] = $(this).width(); 
-        });
-
-        console.log(widths);
-
-        $(el).empty().append($div);
+        $(el).css('padding', 0).empty().append($div);
 
         keys = Object.keys(accordion);
         for(i = 0; i < length; ++i) {
@@ -159,7 +151,7 @@
                 $('.sda-container').each(function(i) {
                     if(i != id) {
                         $content = $(this).find('> .sda-content')
-                            $.sdAccordionify.toggleArrow(i, 'closed');;
+                        $.sdAccordionify.toggleArrow(i, 'closed');;
                         if(options.animation) {
                             $content.slideUp(options.duration);
                         } else {
