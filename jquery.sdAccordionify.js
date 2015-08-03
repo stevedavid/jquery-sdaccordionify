@@ -25,8 +25,6 @@
         var options  = option || $.sdAccordionify.defaults;
 
         var $ul = $(el)
-        , width = $ul.width() / 3
-        , height = $ul.height() / 3
         , $lis = $ul.find('> li')
         , accordion = $.sdAccordionify.buildAccordion($lis)
         ;
