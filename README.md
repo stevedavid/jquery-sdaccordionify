@@ -1,5 +1,5 @@
 # jQuery.sdAccordionify
-Another simple ligh-weight jQuery plugin the makes an accordion out of a list.
+Another simple light-weight jQuery plugin the makes an accordion out of a list.
 
 ## Releases
 * **v0.1** - 03/08/2015
